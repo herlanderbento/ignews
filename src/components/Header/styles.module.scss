@@ -36,7 +36,7 @@
 
       &.active {
         color: var(--white);
-        font-weight: bold;
+        font-weight: 500;
       }
 
       &.active::after {
@@ -50,5 +50,9 @@
         background: var(--yellow-500);
       }
     }
+  }
+
+  button {
+    margin-left: auto;
   }
 }
